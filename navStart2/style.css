@@ -35,3 +35,31 @@ nav{
     line-height: 40px;
     text-align: center;
 }
+
+.sub{
+    width: 70px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.sub li{
+    width: 70px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 15px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.main > li:hover .sub{
+    max-height: 126px;
+}
+
+section{
+    margin: -10px 0 0 10px;
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+}
