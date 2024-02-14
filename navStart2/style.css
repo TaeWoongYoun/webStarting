@@ -19,7 +19,7 @@ nav{
     justify-content: center;
 }
 
-ul{
+.main{
     width: 400px;
     height: 50px;
     display: flex;
@@ -27,7 +27,7 @@ ul{
     justify-content: space-between;
 }
 
-li{
+.main > li{
     width: 70px;
     height: 40px;
     background-color: azure;
