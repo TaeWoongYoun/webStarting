@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main:hover .TOP{
+    margin-top: 20px;
+}
+
+main:hover section{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main:hover .LEFT{
+    width: 580px;
+    height: 490px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+main:hover .RIGHT1{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+main:hover .RIGHT2{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+main:hover .RIGHT3{
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+
+.TOP{
+    width: 1000px;
+    height: 80px;
+    background-color: #FF5E00;
+}
+
+section{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.LEFT{
+    width: 600px;
+    height: 500px;
+    background-color:#00D8FF;
+}
+
+.RIGHT{
+    width: 400px;
+    height: 500px;
+}
+
+.RIGHT1{
+    width: 100%;
+    height: 160px;
+    background-color: #FF00DD;
+}
+
+.RIGHT2{
+    width: 100%;
+    height: 160px;
+    background-color: #FFE400;
+}
+
+.RIGHT3{
+    width: 100%;
+    height: 180px;
+    background-color: #99E000;
+}
+
+.BOTTOM{
+    width: 1000px;
+    height: 100px;
+    background-color: #5D5D5D;
+}
