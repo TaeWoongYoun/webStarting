@@ -8,6 +8,10 @@ main{
     margin: 0 auto;
 }
 
+.TOP, section, .LEFT, .RIGHT1, .RIGHT2, .RIGHT3 {
+    transition: all 1s;
+}
+
 main:hover .TOP{
     margin-top: 20px;
 }
