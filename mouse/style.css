@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+button{
+    width: 300px;
+    height: 70px;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+div{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover{
+    background-color: lightsalmon;
+}
+.hover:hover{
+    background-color: palevioletred;
+}
+
+.active{
+    background-color: cornflowerblue;
+}
+.active:active{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.focus{
+    background-color: chartreuse;
+}
+.focus button:focus{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.focus-withim{
+    background-color: pink;
+}
+.focus-withim:focus-within{
+    background-color: cornsilk;
+}
