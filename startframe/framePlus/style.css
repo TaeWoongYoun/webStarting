@@ -1,12 +1,19 @@
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+}
+
+h4{
+    text-align: center;
+}
+
+.logo, .con, .foot1 {
+    color: aliceblue;
 }
 
 main{
-    margin-top: 90px;
     width: 1000px;
-    border: 2px solid lightsalmon;
+    border: 2px solid lightblue;
 }
 
 header{
@@ -30,9 +37,9 @@ nav{
 section{
     width: 1000px;
     height: 400px;
-    background-color: grey;
+    background-color: lightblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .content{
@@ -48,11 +55,27 @@ footer{
 }
 
 .foot{
-    width: 50%;
     height: 100%;
+    background-color: lightblue;
 }
 
-.foot div{
-    width: 100%;
-    height: 50%;
+.foot:nth-child(1) div:nth-child(1){
+    width: 600px;
+    height: 30%;
+}
+
+.foot:nth-child(1) div:nth-child(2){
+    width: 400px;
+    height: 70%;
+}
+
+.foot:nth-child(2) div:nth-child(1){
+    width: 400px;
+    height: 70%;
+}
+
+.foot:nth-child(2) div:nth-child(2){
+    margin-left: -200px;
+    width: 600px;
+    height: 30%;
 }
