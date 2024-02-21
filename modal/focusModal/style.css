@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    float: right;
+    margin-top: 70px;
+    margin-right: 10px;
+    width: 350px;
+    height: 450px;
+    background-color: #444;
+    visibility: hidden;
+}
+
+.back:focus{
+    visibility: visible;
+}
+
+.back:focus-within{
+    visibility: visible;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+}
+
+/* 여기서부턴 디자인! 참고용! */
+.back:focus-within button{
+    box-shadow: -5px 0px 5px grey, 5px 0px 5px grey, 0px -5px 5px gray,  0px 5px 5px gray; 
+}
+
+.back{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: 50%;
+}
+
+.backBox{
+    border-radius: 10PX;
+    width: 335px;
+    height: 435px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconBox{
+    width: 270px;
+    height: 360px;
+
+}
+
+.icon{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+
