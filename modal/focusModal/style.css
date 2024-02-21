@@ -13,10 +13,6 @@
     visibility: hidden;
 }
 
-.back:focus{
-    visibility: visible;
-}
-
 .back:focus-within{
     visibility: visible;
 }
