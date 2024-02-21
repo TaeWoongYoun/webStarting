@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.card{
+    margin: 20px;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+}
+
+.imgBox{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    background-color: lightblue;
+}
+
+.textBox{
+    padding: 20px;
+}
+
+p{
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: 16px;
+    font-weight: 600;
+}
