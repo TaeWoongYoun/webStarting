@@ -31,7 +31,7 @@
   modal(모달창)
 </summary>
   
-    버튼을 클릭하면 나오는 광고창, 설명창<br>
+    버튼을 클릭하면 나오는 광고창, 설명창
     focusModal : css 포커스 기능으로 최대한 간단하게 만든 모달창(실패)
 </details>
 
@@ -49,8 +49,8 @@
 </summary>
   
     0. nav : nav, ul, li만 사용해서 만드는 간단한 네비게이션 메뉴
-    1. DropDownMenu : 드롭다운 기능이 들어간 메뉴바<br>
-    2. inputNav : input이 들어간 네비게이션 디자인<br>
+    1. DropDownMenu : 드롭다운 기능이 들어간 메뉴바
+    2. inputNav : input이 들어간 네비게이션 디자인
     3. navigation : 보편적인 네비게이션 디자인
 </details>
 
@@ -59,7 +59,7 @@
    slide(슬라이드,캐러셀)
 </summary>
 
-    css만 사용해서 이미지슬라이드(캐러셀)기능 구현 <br>
+    css만 사용해서 이미지슬라이드(캐러셀)기능 구현
     @keyframes사용
 </details>
 
