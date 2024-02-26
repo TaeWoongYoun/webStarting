@@ -53,6 +53,13 @@ nav > ul > li{
     border-radius: 40px;
     background: none;
     border: #ccc 1px solid;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    background-color: #eee;
+    color: black;
 }
 
 .btn{
@@ -71,4 +78,5 @@ nav > ul > li{
     color: black;
     border: none;
     font-weight: 800;
+    cursor: pointer;
 }
