@@ -6,54 +6,86 @@
 <summary>
   badge(뱃지)
 </summary>
-  button을 활용한 여러 디자인
+  
+    button을 활용한 여러 디자인
 </details>
 
 <details>
 <summary>
   card(카드)
 </summary>
-  위에 이미지, 아래에는 설명이 들어간 카드 모양의 박스
+  
+    위에 이미지, 아래에는 설명이 들어간 카드 모양의 박스
 </details>
 
 <details>
 <summary>
   minisite(간단한 사이트)
 </summary>
-  쉽게 만들기 좋은 사이트(예 : 로그인 페이지)
+  
+    쉽게 만들기 좋은 사이트(예 : 로그인 페이지)
 </details>
 
 <details>
 <summary>
   modal(모달창)
 </summary>
-  버튼을 클릭하면 나오는 광고창, 설명창
-  <details>
-  <summary>
-    focusModal
-  </summary>
-    css 포커스 기능으로 최대한 간단하게 만든 모달창(실패)
-  </details>
+  
+    버튼을 클릭하면 나오는 광고창, 설명창<br>
+    focusModal : css 포커스 기능으로 최대한 간단하게 만든 모달창(실패)
 </details>
 
 <details>
 <summary>
   mouse(마우스 이벤트)
 </summary>
-  css의 4가지 유용한 마우스 이벤트 정리
+  
+    css의 4가지 유용한 마우스 이벤트 정리
 </details>
 
 <details>
 <summary>
   nav(네비게이션)
 </summary>
-  여러 네비게이션 디자인과 기능 모음
-  <details>
-<summary>
-  파일 설명
-</summary>
-  1. DropDownMenu : 드롭다운 기능이 들어간 메뉴바
-  2. inputNav : input이 들어간 네비게이션 디자인
-  3. navigation : 보편적인 네비게이션 디자인
+  
+    0. nav : nav, ul, li만 사용해서 만드는 간단한 네비게이션 메뉴
+    1. DropDownMenu : 드롭다운 기능이 들어간 메뉴바<br>
+    2. inputNav : input이 들어간 네비게이션 디자인<br>
+    3. navigation : 보편적인 네비게이션 디자인
 </details>
+
+<details>
+<summary>
+   slide(슬라이드,캐러셀)
+</summary>
+
+    css만 사용해서 이미지슬라이드(캐러셀)기능 구현 <br>
+    @keyframes사용
+</details>
+
+<details>
+<summary>
+  tip(알면 좋은 팁 모음)
+</summary>
+  
+    1. Favicon : 파비콘 만드는 방법
+</details>
+
+<details>
+<summary>
+  variousSite (여러가지 다양하고 간단한 메인페이지 모음)
+</summary>
+  
+    1. SITE1 : 미리캔버스 사이트 창작
+    2. SITE2 : 깃허브 사이트 창작
+</details>
+
+<details>
+<summary>
+  wireframe(와이어프레임,영역잡기)
+</summary>
+  
+    웹디자인 및 개발을 배우기 시작하며 가장 먼저 하는 영역잡기 연습자료 모음
+    0. wireframe : 간단한 영역잡기 시작용도
+    -> wireframeJoy : 그냥 트렌지션과 마진을 사용해서 움직이는 영역 만들어본 폴더
 </details>
