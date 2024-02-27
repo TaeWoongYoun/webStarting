@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파이스크립트</title>
+    <!-- 로딩이 어떻게 뜨는지가 다른 코드 -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pyBox">
+        <py-script>
+            print('hello, world!')
+        </py-script>
+    </div>
+    <div class="Box">
+        <py-script>
+            for i in range(2,10):
+                for k in range(1,10):
+                    print("%dx%d=%2d  " % (i,k,k*i), end="")
+                print()
+        </py-script>
+    </div>
+</body>
+</html>

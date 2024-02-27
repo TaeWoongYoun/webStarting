@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pyBox{
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.Box{
+    width: 100%;
+    height: 1730px;
+    background-color: lightsalmon;
+}
