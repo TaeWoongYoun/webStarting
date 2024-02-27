@@ -69,6 +69,7 @@
 </summary>
   
     1. Favicon : 파비콘 만드는 방법
+    2. PyScript : 간단한 파이스크립트 사용 예시(파이썬에서 공부한거 이쁘게 출력 가능)
 </details>
 
 <details>
