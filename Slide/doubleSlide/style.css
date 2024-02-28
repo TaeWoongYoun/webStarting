@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 0;
+}
+
+.window{
+    margin: 200px;
+    width: 410px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    animation: slide infinite linear 8s;
+}
+
+.slide li{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 36px;
+    margin-left: 10px;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+
+    40%{
+        left: 0;
+    }
+
+    50%{
+        left: -200px;
+    }
+
+    90%{
+        left: -200px;
+    }
+
+    100%{
+        left: -400px;
+    }
+}
