@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+ul li{
+    padding-left: 0;
+    list-style: none;
+}
+
+.window{
+    margin-top: 200px;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 300%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    animation: slide infinite linear 6s;
+}
+
+.slide li{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightblue;
+}
+
+@keyframes slide{
+    from{
+        left: 0;
+    }
+
+    to{
+        left: -200%;
+    }
+}
