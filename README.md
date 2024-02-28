@@ -59,8 +59,9 @@
    slide(슬라이드,캐러셀)
 </summary>
 
-    css만 사용해서 이미지슬라이드(캐러셀)기능 구현
     @keyframes사용
+    0. slide : css만 사용해서 이미지슬라이드(캐러셀)기능 구현
+    1. infiniteSlide : 무한으로 반복되는 텍스트슬라이드
 </details>
 
 <details>
