@@ -12,6 +12,14 @@
 
 <details>
 <summary>
+  button(버튼)
+</summary>
+  
+    button의 내부를 그라데이션, 이미지 등으로 꾸민 버튼
+</details>
+
+<details>
+<summary>
   card(카드)
 </summary>
   
