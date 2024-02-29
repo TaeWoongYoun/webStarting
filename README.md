@@ -7,7 +7,7 @@
   badge(뱃지)
 </summary>
   
-    button을 활용한 여러 디자인
+    button을 활용헤서 만든 SNS 메시지 버튼 디자인
 </details>
 
 <details>
