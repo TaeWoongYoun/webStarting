@@ -64,6 +64,14 @@
 
 <details>
 <summary>
+  scrollBox(스크롤이 가능한 작은 박스)
+</summary>
+  
+    스크롤 기능을 넣은 작은 박스
+</details>
+
+<details>
+<summary>
    slide(슬라이드,캐러셀)
 </summary>
 
