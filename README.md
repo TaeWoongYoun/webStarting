@@ -79,6 +79,7 @@
     0. slide : css만 사용해서 이미지슬라이드(캐러셀)기능 구현
     1. doubleSlide : 이미지 두개가 순차적으로 보이는 슬라이드
     2. infiniteSlide : 무한으로 반복되는 텍스트슬라이드
+    3. tripleSlide : 이미지 세개가 순차적으로 보이는 슬라이드
 </details>
 
 <details>
