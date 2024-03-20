@@ -98,6 +98,7 @@
   
     1. SITE1 : 미리캔버스 사이트 창작
     2. SITE2 : 깃허브 사이트 창작
+    3. SITE3 : 춘식이 사이트 창작
 </details>
 
 <details>
