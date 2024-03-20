@@ -14,7 +14,10 @@ ul{
 }
 
 .back{
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1438px;
     height: 763px;
     border: 1px solid black;
@@ -23,7 +26,9 @@ ul{
 .front{
     left: 100px;
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1240px;
 }
 
