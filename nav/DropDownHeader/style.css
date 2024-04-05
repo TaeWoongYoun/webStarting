@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    padding-left: 0;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.logo{
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav{
+    width: 900px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu > li{
+    width: 140px;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sub-menu{
+    width: 140px;
+    height: 0;
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s;
+    visibility: hidden;
+}
+
+.main-menu:hover .sub-menu{
+    height: 210px;
+    visibility: visible;
+}
+
+.login{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
