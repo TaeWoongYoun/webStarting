@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: block;
+}
+
+.accordion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    background-color: #E4F0FF;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.accordion h2{
+    padding: 10px;
+}
+
+.menu{
+    padding: 10px;
+    background-color: aliceblue;
+    border-bottom: 5px solid #ddd;
+}
+
+.menu h3{
+    line-height: 30px;
+}
+
+.menu h3 + div{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#one:checked~.first div,
+#two:checked~.second div,
+#three:checked~.third div,
+#four:checked~.fourth div,
+#five:checked~.fifth div,
+#six:checked~.sixth div{
+    height: 150px;
+}
