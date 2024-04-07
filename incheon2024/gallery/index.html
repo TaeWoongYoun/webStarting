@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- 
+    gallery 영역
+    ․ gallery 영역은 skills baseball park의 멋진 장면을 사진으로 애니메이션 효과와 
+    함께 사용자에게 제공하는 영역이다.
+    ․ gallery 영역은 선수제공파일의 사진 중 선수가 6장을 선택하여 제작한다.
+    ․ 사진이 이동 될 때는 슬라이딩 효과를 구현한다.
+    ․ 슬라이딩이 되는 동안 이전, 다음 버튼은 비활성화 된다.
+    ․ 다섯 개의 사진이 보이면 이전, 다음 버튼 모두 보여진다.
+    ․ 사진에 마우스 오버 시 현재 사진이 몇 번째 사진인지를 알 수 있는 번호와 
+    more 버튼이 나타난다.
+    ․ gallery 영역의 초기화면은 중간부터 오른쪽으로 첫 번째 사진부터 세 번째 
+    사진까지 세 장의 사진만 보이며, 다음 버튼이 보인다.
+    ․ 초기화면에서 다음 버튼을 클릭하면 왼쪽으로 사진의 크기만큼 슬라이딩되며 첫 번
+    째 사진부터 네 번째 사진까지 4장의 사진이 보인다.
+    ․ 또 다시 다음 버튼을 클릭하면 왼쪽으로 사진의 크기만큼 슬라이딩되며 
+    첫 번째 사진부터 다섯 번째 사진까지 5장의 사진이 보이고, 이전버튼이 보인다.
+    ․ 5장의 사진이 전부 보이고, 이전, 다음 버튼을 클릭하면 이전, 
+    다음 사진이 순환되어 슬라이딩되며 보여진다.
+    ․ 이전 버튼을 클릭하면 5장의 사진이 유지되면서 
+    다음 버튼을 클릭했을 때와는 반대방향으로 슬라이딩이 된다
+-->
+<body>
+    <div class="container">
+        <input type="radio" name="next" id="next1">
+        <input type="radio" name="next" id="next2">
+        <input type="radio" name="next" id="next3">
+        <input type="radio" name="next" id="next4">
+        <input type="radio" name="next" id="next5">
+        <input type="radio" name="next" id="next6">
+
+        <ul class="slide">
+            <li style="background-color: lightcoral;" class="one">1</li>
+            <li style="background-color: lightblue;" class="two">2</li>
+            <li style="background-color: lightgreen;" class="three">3</li>
+            <li style="background-color: lightpink;" class="four">4</li>
+            <li style="background-color: lightsalmon;" class="five">5</li>
+            <li style="background-color: lightskyblue;" class="six">6</li>
+        </ul>
+
+        <label for="next1" class="nextBtn">next</label>
+        <label for="next2" class="nextBtn">next</label>
+        <label for="next3" class="nextBtn">next</label>
+        <label for="next4" class="nextBtn">next</label>
+        <label for="next5" class="nextBtn">next</label>
+        <label for="next6" class="nextBtn">next</label>
+    </div>
+</body>
+</html>
