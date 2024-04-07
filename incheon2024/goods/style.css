@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.first{
+    cursor: e-resize;
+}
+
+.container:hover .first:hover ~ .box {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
