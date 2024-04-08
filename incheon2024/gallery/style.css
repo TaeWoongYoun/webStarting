@@ -30,7 +30,7 @@ label{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .slide li{
@@ -45,6 +45,15 @@ label{
 .nextBtn{
     position: absolute;
     visibility: hidden;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 1s;
+    opacity: 0;
 }
 
 #next1:checked~.next2,
@@ -54,6 +63,7 @@ label{
 #next5:checked~.next6,
 #next6:checked~.next6{
     visibility: visible;
+    opacity: 1;
 }
 
 #next1:checked~.slide{
