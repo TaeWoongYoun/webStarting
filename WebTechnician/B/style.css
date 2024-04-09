@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+main{
+    width: 1200px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: #00DCFF;
+}
+
+nav{
+    width: 1000px;
+    height: 100px;
+    background-color: #55B4FC;
+}
+
+.imgSlide{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.con{
+    width: 400px;
+    height: 200px;
+}
+
+.tebmenu{
+    background-color: #8A8BD4;
+}
+
+.banner{
+    background-color: #9D649B;
+}
+
+.shortcut{
+    background-color: #924660;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.rightBox{
+    width: 1000px;
+    height: 100px;
+}
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    background-color: #00CACB;
+}
+
+.bottommenu{
+    width: 100%;
+    height: 50px;
+    background-color: #00989A;
+}
