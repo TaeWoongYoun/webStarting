@@ -4,6 +4,14 @@
 
 <details>
 <summary>
+  accordion
+</summary>
+  
+    아코디언 메뉴 （ 세로 드롭다운 느낌 ）
+</details>
+
+<details>
+<summary>
   badge(뱃지)
 </summary>
   
@@ -20,10 +28,34 @@
 
 <details>
 <summary>
+  calender(캘린더)
+</summary>
+  
+    ul li로 간단하게 만든 달
+</details>
+
+<details>
+<summary>
   card(카드)
 </summary>
   
     위에 이미지, 아래에는 설명이 들어간 카드 모양의 박스
+</details>
+
+<details>
+<summary>
+  form(로그인 페이지)
+</summary>
+  
+    탭메뉴와 다양한 input의 type을 섞어서 만든 로그인 페이지
+</details>
+
+<details>
+<summary>
+  incheon2024(인천지방기능경기대회2024)
+</summary>
+  
+    인천지방기능경기대회 2024년 문제 중 굿즈, 갤러리(실패) 코드
 </details>
 
 <details>
@@ -57,7 +89,7 @@
 </summary>
   
     0. nav : nav, ul, li만 사용해서 만드는 간단한 네비게이션 메뉴
-    1. DropDownMenu : 드롭다운 기능이 들어간 메뉴바
+    1. DropDownMenu : 2가지 드롭다운 기능이 들어간 메뉴바
     2. inputNav : input이 들어간 네비게이션 디자인
     3. navigation : 보편적인 네비게이션 디자인
 </details>
@@ -80,6 +112,14 @@
     1. doubleSlide : 이미지 두개가 순차적으로 보이는 슬라이드
     2. infiniteSlide : 무한으로 반복되는 텍스트슬라이드
     3. tripleSlide : 이미지 세개가 순차적으로 보이는 슬라이드
+</details>
+
+<details>
+<summary>
+  tebmenu(탭메뉴)
+</summary>
+  
+    간단한 탭메뉴 코드
 </details>
 
 <details>
