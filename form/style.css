@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.form h1{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 48px;
+}
+
+.Container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    position: relative;
+    left: 45px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background: #fff;
+    color: #111;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input:checked + label {
+    background:#111;
+    color: #fff;
+    border: 1px solid black;
+}
+
+#login:checked~.loginBox,
+#signup:checked~.signupBox{
+    display: block;
+}
+
+.loginBox{
+    margin-left: 45px;
+    width: 310px;
+    height: 450px;
+    display: none;
+}
+
+#login-email{
+    margin-top: 20px;
+    width: 288px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: none;
+}
+
+#login-pw{
+    margin-top: 10px;
+    width: 288px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: none;
+}
+
+.login-check{
+    margin-top: 10px;
+    display: flex;
+}
+
+.login-check input{
+    width: 20px;
+    height: 20px;
+    border-radius: none;
+    margin-right: 10px;
+}
+
+.login-check p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.loginBtn, .signupBtn{
+    margin-top: 20px;
+    width: 310px;
+    height: 40px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.login-nav{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 310px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.login-nav p{
+    width: 160px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-nav p:nth-child(1){
+    border-right: 1px solid #111;
+}
+
+.login-google, .login-github, .signup-google, .signup-github{
+    margin-top: 10px;
+    width: 308px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    line-height: 40px;
+}
+
+.login-google p, .login-github p, .signup-google p , .signup-github p{
+    margin-left: 20px;
+}
+
+.login-google img, .login-github img, .signup-google img, .signup-github img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+
+.signupBox{
+    margin-left: 45px;
+    width: 310px;
+    height: 450px;
+    display: none;
+}
+
+.signup-name-box{
+    margin-top: 10px;
+    width: 310px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#signup-name, #signup-id{
+    margin-top: 20px;
+    width: 130px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: none;
+}
+
+#signup-email{
+    margin-top: 20px;
+    width: 288px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: none;
+}
+
+#signup-pw, #signup-pw-check{
+    margin-top: 10px;
+    width: 288px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: none;
+}
+
+#signup-select{
+    margin-top: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지 만들어보기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>LOGIN</h1>
+        <input type="radio" name="label" id="login">
+        <label for="login">로그인</label>
+        <input type="radio" name="label" id="signup" checked>
+        <label for="signup">회원가입</label>
+
+        <div class="loginBox">
+            <input type="email"  id="login-email" placeholder="아이디 또는 이메일">
+            <input type="password"  id="login-pw" placeholder="비밀번호">
+            <div class="login-check">
+                <input type="checkbox"><p>로그인 상태 유지</p>
+            </div>
+            <button class="loginBtn"><b>LOGIN</b></button>
+            <div class="login-nav">
+                <p>아이디찾기</p>
+                <p>비밀번호찾기</p>
+            </div>
+            <div class="login-google">
+                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="">
+                <p>Google로 로그인</p>
+            </div>
+            <div class="login-github">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+                <p>Github로 로그인</p>
+            </div>
+        </div>
+        <div class="signupBox">
+            <div class="signup-name-box">
+                <input type="text" id="signup-name" placeholder="이름">
+                <input type="text" id="signup-id" placeholder="아이디">
+            </div>
+            <input type="email"  id="signup-email" placeholder="이메일 주소">
+            <input type="password"  id="signup-pw" placeholder="비밀번호">
+            <input type="password"  id="signup-pw-check" placeholder="비밀번호 확인">
+            <select id="signup-select">
+                <option disabled selected>성별</option>
+                <option>남자</option>
+                <option>여자</option>
+                <option>비공개</option>
+            </select>
+            <button class="signupBtn"><b>SIGN UP</b></button>
+            <div class="signup-google">
+                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="">
+                <p>Google로 가입하기</p>
+            </div>
+            <div class="signup-github">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+                <p>Github로 가입하기</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
