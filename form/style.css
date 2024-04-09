@@ -15,6 +15,7 @@ input[type="radio"]{
     width: 400px;
     height: 600px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .form h1{
@@ -111,6 +112,7 @@ input:checked + label {
     line-height: 40px;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .login-nav{
@@ -126,6 +128,7 @@ input:checked + label {
     width: 160px;
     text-align: center;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .login-nav p:nth-child(1){
@@ -139,6 +142,7 @@ input:checked + label {
     border: 1px solid #ddd;
     display: flex;
     line-height: 40px;
+    cursor: pointer;
 }
 
 .login-google p, .login-github p, .signup-google p , .signup-github p{
