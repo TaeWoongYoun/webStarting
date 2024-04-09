@@ -143,6 +143,14 @@
 
 <details>
 <summary>
+  WebTechnician(웹디자이기능사 와이어프레임)
+</summary>
+  
+    웹디자인기능사 공개문제 와이어프레임(제작중)
+</details>
+
+<details>
+<summary>
   wireframe(와이어프레임,영역잡기)
 </summary>
   
