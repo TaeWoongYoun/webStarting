@@ -100,6 +100,7 @@
 </summary>
   
     스크롤 기능을 넣은 작은 박스
+    +디자인 된 스크롤바
 </details>
 
 <details>
