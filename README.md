@@ -4,7 +4,7 @@
 
 <details>
 <summary>
-  accordion
+  accordion(아코디언)
 </summary>
   
     아코디언 메뉴 （ 세로 드롭다운 느낌 ）
