@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.keyboard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1040px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keyboard div{
+    box-shadow: 2px 2px 5px black;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.backspace{
+    width: 120px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.miniBox{
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.CapsLock{
+    width: 110px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.Enter{
+    width: 140px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.Shift{
+    width: 160px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.Space{
+    width: 430px;
+    height: 60px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
