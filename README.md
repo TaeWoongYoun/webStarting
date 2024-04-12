@@ -69,6 +69,14 @@
 
 <details>
 <summary>
+  keyboard(간단한 키보드)
+</summary>
+  
+    간단한 키보드 디자인
+</details>
+
+<details>
+<summary>
   minisite(간단한 사이트)
 </summary>
   
