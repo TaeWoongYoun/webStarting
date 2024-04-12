@@ -107,6 +107,7 @@
   
     0. nav : nav, ul, li만 사용해서 만드는 간단한 네비게이션 메뉴
     1. DropDownMenu : 2가지 드롭다운 기능이 들어간 메뉴바
+    1.5. subBox : 드롭다운이 되면 서브박스가 같이 내려오는 네비게이션
     2. inputNav : input이 들어간 네비게이션 디자인
     3. navigation : 보편적인 네비게이션 디자인
 </details>
