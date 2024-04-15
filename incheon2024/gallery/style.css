@@ -8,6 +8,10 @@ ul li{
     list-style: none;
 }
 
+input{
+    display: none;
+}
+
 label{
     display: block;
 }
@@ -19,7 +23,6 @@ label{
     transform: translate(-50%, -50%);
     width: 1200px;
     height: 300px;
-    border: 1px solid black;
     overflow: hidden;
 }
 
@@ -44,6 +47,9 @@ label{
 
 .nextBtn{
     position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
     visibility: hidden;
     width: 100px;
     height: 40px;
