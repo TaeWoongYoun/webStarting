@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+ul li{
+    padding-left: 0;
+    list-style: none;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+}
+
+header{
+    width: 200px;
+    height: 850px;
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+    background-color: #E9F5DB;
+}
+
+nav{
+    width: 200px;
+    height: 700px;
+    background-color: #111;
+}
+
+.main{
+    width: calc(100% - 200px);
+    background-color: aliceblue;
+}
+
+.slide{
+    width: 100%;
+    height: 400px;
+    background-color: #87986A;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: #CFE1B9;
+}
+
+.tebmenu{
+    width: 100%;
+    height: 250px;
+    background-color: #718355;
+}
+
+.go{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 300px;
+    background-color: #B5C99A;
+}
+
+.go div{
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.go div:nth-child(3){
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: #E9F5DB;
+}
+
+.footContainer{
+    width: calc(100% - 200px);
+    height: 100px;
+    display: flex;
+}
+
+.copy{
+    width: 80%;
+    background-color: #333;
+}
+
+.sns{
+    width: 20%;
+    background-color: #555;
+}
