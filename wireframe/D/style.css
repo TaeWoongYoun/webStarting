@@ -91,7 +91,7 @@ footer{
 .footer-logo{
     width: 200px;
     height: 100px;
-    background-color: #E9F5DB;
+    background-color: #333;
 }
 
 .footContainer{
@@ -103,10 +103,9 @@ footer{
 .copy{
     width: 80%;
     background-color: #333;
-    color: #fff;
 }
 
 .sns{
     width: 20%;
-    background-color: #555;
+    background-color: #333;
 }
