@@ -59,16 +59,16 @@ nav{
     visibility: hidden;
 }
 /* 서브메뉴 전체 드롭다운 */
-/* .main-menu:hover .sub-menu{
-    height: 210px;
-    visibility: visible;
-} */
-
-/* 해당 서브메뉴만 드롭다운 */
-.main-menu > li:hover .sub-menu{
+.main-menu:hover .sub-menu{
     height: 210px;
     visibility: visible;
 }
+
+/* 해당 서브메뉴만 드롭다운 */
+/* .main-menu > li:hover .sub-menu{
+    height: 210px;
+    visibility: visible;
+} */
 
 .login{
     width: 300px;
