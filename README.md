@@ -20,6 +20,14 @@
 
 <details>
 <summary>
+  battery
+</summary>
+  
+    베터리 모양으로 애니메이션 활용
+</details>
+
+<details>
+<summary>
   button(버튼)
 </summary>
   
