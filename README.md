@@ -20,7 +20,7 @@
 
 <details>
 <summary>
-  battery
+  battery(베터리)
 </summary>
   
     베터리 모양으로 애니메이션 활용
