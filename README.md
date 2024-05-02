@@ -118,7 +118,7 @@
 
 <details>
 <summary>
-    roding(로딩창 디자인)
+    roding(로딩창)
 </summary>
   
     여러가지 로딩창 디자인들
