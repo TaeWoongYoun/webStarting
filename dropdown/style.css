@@ -3,47 +3,34 @@
     margin: 0;
 }
 
-header{
-    width: 100%;
-    height: 70px;
-    background-color: black;
-    display: flex;
-    color: aliceblue;
-}
-
-.logo{
-    width: 200px;
-    height: 100%;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav{
-    width: calc(100% - 200px);
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 details{
-    width: 200px;
-    text-align: center;
-}
-
-details summary::marker{
-    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 summary{
-    height: 70px;
-    line-height: 70px;
-    font-size: 24px;
-    text-align: center;
+    padding: 20px;
+}
+
+summary::marker{
+    font-size: 0;
+}
+
+summary:hover{
+    cursor: pointer;
 }
 
 details p{
     padding: 20px;
-    background-color: black;
+    font-size: 18px;
+    background-color: #333;
+    border: 10px solid black;
+    border-radius: 20px;
 }
