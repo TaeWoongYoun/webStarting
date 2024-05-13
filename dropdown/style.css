@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #eee;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: calc(100% - 200px);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+details{
+    width: 200px;
+}
+
+summary{
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+details p{
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #eee;
+}
