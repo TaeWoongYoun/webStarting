@@ -11,7 +11,7 @@ aside{
     position: relative;
     width: 45%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .slideBox{
@@ -24,7 +24,10 @@ aside{
 .slide{
     width: 100%;
     height: 100%;
-    
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
 }
 
 .nextBtn{
@@ -40,18 +43,39 @@ aside{
     line-height: 40px;
 }
 
+.prevBtn{
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
 #next1:checked~.btn2,
 #next2:checked~.btn3,
 #next3:checked~.btn1{
     display: block;
 }
+#next1:checked~.btn6,
+#next2:checked~.btn4,
+#next3:checked~.btn5{
+    display: block;
+}
 
-#next1:checked~.slideBox{
-    left: -100%;
+#next1:checked~.slide1{
+    visibility: visible;
+    opacity: 1;
 }
-#next2:checked~.slideBox{
-    left: -200%;
+#next2:checked~.slide2{
+    visibility: visible;
+    opacity: 1;
 }
-#next3:checked~.slideBox{
-    left: 0;
+#next3:checked~.slide3{
+    visibility: visible;
+    opacity: 1;
 }
