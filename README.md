@@ -36,6 +36,14 @@
 
 <details>
 <summary>
+  btnSlide(버튼 캐러셀)
+</summary>
+  
+    버튼으로 움직이는 이미지 슬라이드
+</details>
+
+<details>
+<summary>
   button(버튼)
 </summary>
   
