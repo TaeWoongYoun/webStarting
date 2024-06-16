@@ -77,6 +77,14 @@
 
 <details>
 <summary>
+  cursor(마우스 커서)
+</summary>
+  
+    마우스 커서 변경하기
+</details>
+
+<details>
+<summary>
   form(로그인 페이지)
 </summary>
   
