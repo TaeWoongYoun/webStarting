@@ -85,6 +85,14 @@
 
 <details>
 <summary>
+  dropdown(클릭 아코디언)
+</summary>
+  
+    details, summary로 만든 아코디언
+</details>
+
+<details>
+<summary>
   form(로그인 페이지)
 </summary>
   
