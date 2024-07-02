@@ -160,14 +160,6 @@
 
 <details>
 <summary>
-    roding(로딩창)
-</summary>
-  
-    여러가지 로딩창 디자인들
-</details>
-
-<details>
-<summary>
   nav(네비게이션)
 </summary>
   
@@ -176,6 +168,14 @@
     1.5. subBox : 드롭다운이 되면 서브박스가 같이 내려오는 네비게이션
     2. inputNav : input이 들어간 네비게이션 디자인
     3. navigation : 보편적인 네비게이션 디자인
+</details>
+
+<details>
+<summary>
+    roding(로딩창)
+</summary>
+  
+    여러가지 로딩창 디자인들
 </details>
 
 <details>
