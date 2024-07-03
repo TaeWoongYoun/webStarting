@@ -221,9 +221,9 @@
   variousSite (여러가지 다양하고 간단한 메인페이지 모음)
 </summary>
   
-    1. SITE1 : 미리캔버스 사이트 창작
-    2. SITE2 : 깃허브 사이트 창작
-    3. SITE3 : 춘식이 사이트 창작
+    1. SITE1 : 미리캔버스 사이트 디자인
+    2. SITE2 : 깃허브 사이트 디자인
+    3. SITE3 : 춘식이 사이트 디자인
 </details>
 
 <details>
