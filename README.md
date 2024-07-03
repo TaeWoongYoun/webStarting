@@ -228,10 +228,10 @@
 
 <details>
 <summary>
-  WebTechnician(웹디자이기능사 와이어프레임)
+  WebTechnician(웹디자이기능사 문제풀이)
 </summary>
-  
-    웹디자인기능사 공개문제 와이어프레임(제작중)
+
+  웹디자인기능사 실기 문제풀이 (제작중)
 </details>
 
 <details>
@@ -239,7 +239,5 @@
   wireframe(와이어프레임,영역잡기)
 </summary>
   
-    웹디자인 및 개발을 배우기 시작하며 가장 먼저 하는 영역잡기 연습자료 모음
-    0. wireframe : 간단한 영역잡기 시작용도
-    -> wireframeJoy : 그냥 트렌지션과 마진을 사용해서 움직이는 영역 만들어본 폴더
+    웹디자인기능사 A~E-1 공개문제 와이어프레임    
 </details>
