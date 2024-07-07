@@ -236,7 +236,7 @@
 
 <details>
 <summary>
-  wireframe(와이어프레임,영역잡기)
+  wireframe(와이어프레임)
 </summary>
   
     웹디자인기능사 A~E-1 공개문제 와이어프레임    
