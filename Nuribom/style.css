@@ -61,6 +61,8 @@ header h1{
     margin: 0 auto;
     width: 800px;
     height: 440px;
+    display: flex;
+    overflow: hidden;
 }
 
 .word{
@@ -94,7 +96,6 @@ header h1{
 }
 
 .bar li:hover{
-    transition: all 0.5s;
     background-color: #eee;
 }
 
