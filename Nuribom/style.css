@@ -57,12 +57,19 @@ header h1{
     color: green;
 }
 
+.window{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
 .en{
     margin: 0 auto;
     width: 800px;
-    height: 440px;
+    height: 500px;
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .word{

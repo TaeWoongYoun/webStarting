@@ -30,4 +30,34 @@ function wordTest(products){
     });
 }
 
-wordTest(data)
+let currentIndex = 0;
+
+function updateSlide(index) {
+    const en = document.querySelector('.en');
+    en.style.transform = `translateX(-${index * 800}px)`;
+    document.querySelector('.number p').innerHTML = `${index + 1}<span>/10</span>`;
+}
+
+document.querySelector('.prev').addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateSlide(currentIndex);
+    }
+    toggleButtons();
+});
+
+document.querySelector('.next').addEventListener('click', () => {
+    if (currentIndex < data.length - 1) {
+        currentIndex++;
+        updateSlide(currentIndex);
+    }
+    toggleButtons();
+});
+
+function toggleButtons() {
+    document.querySelector('.prev').classList.toggle('disabled', currentIndex === 0);
+    document.querySelector('.next').classList.toggle('disabled', currentIndex === data.length - 1);
+}
+
+wordTest(data);
+toggleButtons();
