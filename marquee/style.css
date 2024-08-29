@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+marquee{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    line-height: 50px;
+}
