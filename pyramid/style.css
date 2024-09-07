@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.area {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.pyramid {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+    animation: infinite linear 5s pyramid;
+}
+
+@keyframes pyramid{
+    0%{transform: rotateX(-15deg) rotateY(0deg);}
+    100%{transform: rotateX(-15deg) rotateY(360deg);}
+}
+
+.pyramid:hover{
+    animation-play-state: paused;
+}
+
+.div {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid;
+    opacity: 0.7;
+}
+
+.div01 {
+    transform: rotateY(0deg) translateZ(50px) rotateX(30deg);
+    border-bottom-color: skyblue;
+    transition: all 0.5s;
+}
+
+.div02 {
+    transform: rotateY(90deg) translateZ(50px) rotateX(30deg);
+    border-bottom-color: red;
+}
+
+.div03 {
+    transform: rotateY(180deg) translateZ(50px) rotateX(30deg);
+    border-bottom-color: lightgreen;
+}
+
+.div04 {
+    transform: rotateY(270deg) translateZ(50px) rotateX(30deg);
+    border-bottom-color: lightyellow;
+}
+
+.bottom{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+    transform: rotateX(270deg) translateZ(85px);
+}
