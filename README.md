@@ -131,6 +131,14 @@
 
 <details>
 <summary>
+  marquee(슬라이드 자동 태그)
+</summary>
+  
+    슬라이드 자동으로 만들어주는 태그 / 비표준이므로 참고만.
+</details>
+
+<details>
+<summary>
   minisite(간단한 사이트)
 </summary>
   
@@ -168,6 +176,14 @@
 
 <details>
 <summary>
+    pyramid(피라미드)
+</summary>
+  
+    회전하는 3D 피라미드
+</details>
+
+<details>
+<summary>
     roding(로딩창)
 </summary>
   
@@ -193,6 +209,14 @@
     1. doubleSlide : 이미지 두개가 순차적으로 보이는 슬라이드
     2. infiniteSlide : 무한으로 반복되는 텍스트슬라이드
     3. tripleSlide : 이미지 세개가 순차적으로 보이는 슬라이드
+</details>
+
+<details>
+<summary>
+  stopSlide(정지하는 캐러셀)
+</summary>
+  
+    정지버튼을 누르거나 화면에 호버하면 정지하는 슬라이드 (카카오 홈페이지 클론)
 </details>
 
 <details>
