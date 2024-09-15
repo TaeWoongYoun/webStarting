@@ -130,8 +130,6 @@
 </details>
 
 <details>
-
-<details>
 <summary>
   minisite(간단한 사이트)
 </summary>
