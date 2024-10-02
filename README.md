@@ -238,7 +238,7 @@
 
 <details>
 <summary>
-  variousSite (여러가지 다양하고 간단한 메인페이지 모음)
+  variousSite(여러가지 다양하고 간단한 메인페이지 모음)
 </summary>
   
     1. SITE1 : 미리캔버스 사이트 디자인
