@@ -15,16 +15,22 @@
 }
 
 /* 1번 방법 */
-.father{
+/* .father{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* 2번 방법 */
-.son{
+/* .son{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+/* 3번 방법 */
+.father{
+    display: grid;
+    place-content: center;
 }
