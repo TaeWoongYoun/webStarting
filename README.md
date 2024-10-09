@@ -75,6 +75,17 @@
 
 <details>
 <summary>
+  center(가운데정렬)
+</summary>
+  
+    display: flex;
+    position: absolute;
+    display: grid;
+    세가지 방법을 이용한 가운데정렬
+</details>
+
+<details>
+<summary>
   cursor(마우스 커서)
 </summary>
   
