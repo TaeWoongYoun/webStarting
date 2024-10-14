@@ -134,6 +134,14 @@
 
 <details>
 <summary>
+  LunarEclipse(월식)
+</summary>
+  
+    그저 월식
+</details>
+
+<details>
+<summary>
   map(지도)
 </summary>
   
