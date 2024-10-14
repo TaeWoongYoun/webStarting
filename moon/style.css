@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #222;
+    display: grid;
+    place-content: center;
+}
+
+.moon{
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    animation: 10s shine infinite linear;
+}
+
+.moon::before{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    animation: 10s moon infinite linear;
+}
+
+@keyframes moon{
+    0%,100%{left: 0;}
+    25%{left: -25px;}
+    75%{left: 25px;}
+}
+
+@keyframes shine {
+    25%,75%{box-shadow: none;}
+    0%,50%,100%{box-shadow: 0 0 50px #fff;}
+}
