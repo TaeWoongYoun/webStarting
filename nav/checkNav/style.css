@@ -75,7 +75,7 @@ nav ul li:hover{
     width: 0px;
     height: 100px;
     background-color: darkblue;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     visibility: hidden;
 }
 
@@ -88,7 +88,7 @@ nav ul li:hover{
     background-color: #222;
     z-index: 2;
     overflow: hidden;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     display: flex;
 }
 
@@ -127,7 +127,7 @@ nav ul li:hover{
 }
 
 #modal:checked~.input-box{
-    transition-delay: 0.7s;
+    transition-delay: 0.4s;
     width: 1000px;
     visibility: visible;
 }
