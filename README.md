@@ -56,7 +56,6 @@
     계산기 디자인
 </details>
 
-
 <details>
 <summary>
   calender(캘린더)
@@ -211,7 +210,7 @@
 
 <details>
 <summary>
-  scrollBox(스크롤이 가능한 작은 박스)
+    scrollBox(스크롤이 가능한 작은 박스)
 </summary>
   
     스크롤 기능을 넣은 작은 박스
@@ -232,7 +231,7 @@
 
 <details>
 <summary>
-  stopSlide(정지하는 캐러셀)
+    stopSlide(정지하는 캐러셀)
 </summary>
   
     정지버튼을 누르거나 화면에 호버하면 정지하는 슬라이드 (카카오 홈페이지 클론)
