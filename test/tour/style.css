@@ -1,0 +1,336 @@
+/* 경북투어가이드 */
+.guide {
+    padding-top: 140px;
+    width: 100%;
+    background-color: white;
+}
+
+.guide-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-container > div {
+    width: 1280px;
+}
+
+.guide-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.guide-comment {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/* 가이드 이미지 */
+.guide-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-img > div {
+    width: 1920px;
+    overflow: hidden;
+}
+
+.guide-block {
+    display: flex;
+}
+
+.guide-block > div {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-one,
+.top-five,
+.center-one,
+.center-five,
+.bottom-one,
+.bottom-six {
+    width: 310px;
+    height: 250px;
+}
+
+.top-two {
+    width: 500px;
+}
+.top-three {
+    width: 340px;
+}
+.top-four {
+    width: 440px;
+}
+
+.center-two {
+    width: 300px;
+}
+.center-three {
+    width: 700px;
+}
+.center-four {
+    width: 280px;
+}
+
+.bottom-two {
+    width: 280px;
+}
+.bottom-three {
+    width: 300px;
+}
+.bottom-four {
+    width: 400px;
+}
+.bottom-five {
+    width: 300px;
+}
+
+.guide-block > div img {
+    width: 200%;
+}
+
+/* 호버 텍스트 */
+.block-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.block-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease;
+    transform: translateY(-100%);
+    padding: 15px;
+    visibility: hidden;
+}
+
+.third .block-info {
+    transform: translateY(100%);
+}
+
+.block-intro {
+    color: #eee;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.block-info > p:nth-last-of-type(1) {
+    color: #eee;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* top one */
+#top-one:hover ~ .first > .top-two > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#top-left:hover ~ .first > .top-two > .block-info {
+    transform: translateX(-100%);
+}
+#top-two:hover ~ .first > .top-two > .block-info,
+#top-three:hover ~ .first > .top-two > .block-info,
+#top-right:hover ~ .first > .top-two > .block-info {
+    transform: translateX(100%);
+}
+#center-one:hover ~ .first > .top-two > .block-info,
+#center-two:hover ~ .first > .top-two > .block-info {
+    transform: translateY(100%);
+}
+#bottom-one:hover ~ .first > .top-two > .block-info,
+#bottom-two:hover ~ .first > .top-two > .block-info {
+    transform: translateY(100%);
+}
+
+/* top two */
+#top-two:hover ~ .first > .top-three > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#top-left:hover ~ .first > .top-three > .block-info,
+#top-one:hover ~ .first > .top-three > .block-info {
+    transform: translateX(-100%);
+}
+
+#top-three:hover ~ .first > .top-three > .block-info,
+#top-right:hover ~ .first > .top-three > .block-info {
+    transform: translateX(100%);
+}
+#center-two:hover ~ .first > .top-three > .block-info {
+    transform: translateY(100%);
+}
+#bottom-two:hover ~ .first > .top-three > .block-info,
+#bottom-three:hover ~ .first > .top-three > .block-info {
+    transform: translateY(100%);
+}
+
+/* top three */
+#top-three:hover ~ .first > .top-four > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#top-left:hover ~ .first > .top-four > .block-info,
+#top-one:hover ~ .first > .top-four > .block-info,
+#top-two:hover ~ .first > .top-four > .block-info {
+    transform: translateX(-100%);
+}
+#top-right:hover ~ .first > .top-four > .block-info {
+    transform: translateX(100%);
+}
+#center-two:hover ~ .first > .top-four > .block-info,
+#center-three:hover ~ .first > .top-four > .block-info {
+    transform: translateY(100%);
+}
+#bottom-three:hover ~ .first > .top-four > .block-info,
+#bottom-four:hover ~ .first > .top-four > .block-info {
+    transform: translateY(100%);
+}
+
+/* center one */
+#center-one:hover ~ .second > .center-two > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#center-two:hover ~ .second > .center-two > .block-info,
+#center-three:hover ~ .second > .center-two > .block-info,
+#center-right:hover ~ .second > .center-two > .block-info {
+    transform: translateX(100%);
+}
+#center-left:hover ~ .second > .center-two > .block-info {
+    transform: translateX(-100%);
+}
+#bottom-one:hover ~ .second > .center-two > .block-info,
+#bottom-two:hover ~ .second > .center-two > .block-info {
+    transform: translateY(100%);
+}
+
+/* center two */
+#center-two:hover ~ .second > .center-three > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#center-three:hover ~ .second > .center-three > .block-info,
+#center-right:hover ~ .second > .center-three > .block-info {
+    transform: translateX(100%);
+}
+#center-one:hover ~ .second > .center-three > .block-info,
+#center-left:hover ~ .second > .center-three > .block-info {
+    transform: translateX(-100%);
+}
+#bottom-two:hover ~ .second > .center-three > .block-info,
+#bottom-three:hover ~ .second > .center-three > .block-info {
+    transform: translateY(100%);
+}
+
+/* center three */
+#center-three:hover ~ .second > .center-four > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#center-right:hover ~ .second > .center-four > .block-info {
+    transform: translateX(100%);
+}
+#center-one:hover ~ .second > .center-four > .block-info,
+#center-two:hover ~ .second > .center-four > .block-info,
+#center-left:hover ~ .second > .center-four > .block-info {
+    transform: translateX(-100%);
+}
+#bottom-four:hover ~ .second > .center-four > .block-info {
+    transform: translateY(100%);
+}
+
+/* bottom one */
+#bottom-one:hover ~ .third > .bottom-two > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#bottom-two:hover ~ .third > .bottom-two > .block-info,
+#bottom-three:hover ~ .third > .bottom-two > .block-info,
+#bottom-four:hover ~ .third > .bottom-two > .block-info,
+#bottom-right:hover ~ .third > .bottom-two > .block-info {
+    transform: translateX(100%);
+}
+#bottom-left:hover ~ .third > .bottom-two > .block-info {
+    transform: translateX(-100%);
+}
+#center-one:hover ~ .third > .bottom-two > .block-info,
+#top-one:hover ~ .third > .bottom-two > .block-info {
+    transform: translateY(-100%);
+}
+
+/* bottom two */
+#bottom-two:hover ~ .third > .bottom-three > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#bottom-three:hover ~ .third > .bottom-three > .block-info,
+#bottom-four:hover ~ .third > .bottom-three > .block-info,
+#bottom-right:hover ~ .third > .bottom-three > .block-info {
+    transform: translateX(100%);
+}
+#bottom-one:hover ~ .third > .bottom-three > .block-info,
+#bottom-left:hover ~ .third > .bottom-three > .block-info {
+    transform: translateX(-100%);
+}
+#center-one:hover ~ .third > .bottom-three > .block-info,
+#center-two:hover ~ .third > .bottom-three > .block-info,
+#top-one:hover ~ .third > .bottom-three > .block-info,
+#top-two:hover ~ .third > .bottom-three > .block-info {
+    transform: translateY(-100%);
+}
+
+/* bottom three */
+#bottom-three:hover ~ .third > .bottom-four > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#bottom-four:hover ~ .third > .bottom-four > .block-info,
+#bottom-right:hover ~ .third > .bottom-four > .block-info {
+    transform: translateX(100%);
+}
+#bottom-one:hover ~ .third > .bottom-four > .block-info,
+#bottom-two:hover ~ .third > .bottom-four > .block-info,
+#bottom-left:hover ~ .third > .bottom-four > .block-info {
+    transform: translateX(-100%);
+}
+#center-two:hover ~ .third > .bottom-four > .block-info,
+#top-two:hover ~ .third > .bottom-four > .block-info,
+#top-three:hover ~ .third > .bottom-four > .block-info {
+    transform: translateY(-100%);
+}
+
+/* bottom four */
+#bottom-four:hover ~ .third > .bottom-five > .block-info {
+    transform: translateY(0);
+    visibility: visible;
+}
+#bottom-right:hover ~ .third > .bottom-five > .block-info {
+    transform: translateX(100%);
+}
+#bottom-one:hover ~ .third > .bottom-five > .block-info,
+#bottom-two:hover ~ .third > .bottom-five > .block-info,
+#bottom-three:hover ~ .third > .bottom-five > .block-info,
+#bottom-left:hover ~ .third > .bottom-five > .block-info {
+    transform: translateX(-100%);
+}
+#center-two:hover ~ .third > .bottom-five > .block-info,
+#center-three:hover ~ .third > .bottom-five > .block-info,
+#top-three:hover ~ .third > .bottom-five > .block-info {
+    transform: translateY(-100%);
+}
