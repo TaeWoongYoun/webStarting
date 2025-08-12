@@ -1,34 +1,47 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-ul{
-    list-style: none;
-}
-
-.window{
-    width: 100vw;
+.window {
+    width: 1000px;
     height: 300px;
     overflow: hidden;
 }
 
-.slide{
+.slide {
+    width: 4000px;
+    height: 300px;
     position: relative;
-    width: 400vw;
-    height: 300px;
     display: flex;
-    animation: slide infinite linear 6s;
+    animation: 10s infinite linear slide;
 }
 
-.slide div{
-    width: 100vw;
+.slide div {
+    width: 1000px;
     height: 300px;
 }
 
-@keyframes slide{
-    0%, 23%{left: 0vw;}
-    33%, 56%{left: -100vw;}
-    66%, 90%{left: -200vw;}
-    100%{left: -300vw;}
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    23% {
+        left: 0;
+    }
+    33% {
+        left: -1000px;
+    }
+    56% {
+        left: -1000px;
+    }
+    66% {
+        left: -2000px;
+    }
+    90% {
+        left: -2000px;
+    }
+    100% {
+        left: -3000px;
+    }
 }
